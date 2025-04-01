@@ -1,0 +1,39 @@
+.chatbot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    border: 1px solid #ccc;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  }
+  .chatWindow {
+    height: 200px;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  .inputArea {
+    display: flex;
+    border-top: 1px solid #ccc;
+  }
+  .inputArea input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+  }
+  .inputArea button {
+    border: none;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .userMessage {
+    text-align: right;
+    margin-bottom: 5px;
+  }
+  .botMessage {
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  
